@@ -26,4 +26,5 @@ puts coffee_dad.tweets == [tweet1, tweet2, tweet3]
 coffee_dad.like_tweet(tweet4)
 
 puts coffee_dad.liked_tweets.include?(tweet4)
-0
+
+puts tweet4.likers.include?(coffee_dad)
